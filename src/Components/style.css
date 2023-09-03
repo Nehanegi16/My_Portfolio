@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+ body{
+    background-color:  #072340;;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1px 0;
+}
+.firstSection > div{
+    width: 30%;
+    margin: 30px;
+}
+.leftSection{
+    font-size: 2rem;
+    margin: 50px 0;
+
+}
+.leftSection .btn{
+    padding: 10px; 
+    background:#0c0e3a;
+    color: white;
+    border: 2px solid white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 2px;
+}
+.rightSection{
+    font-size: 1rem;
+
+}
+.img{
+ width: 37vw;
+
+}
+.purpul{
+    color: rgb(170, 107, 228);
+}
+#element{
+    color: rgb(170, 107, 228);
+}
+
+main hr{
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 30px 90px;
+}
+footer{
+    background-color: rgb(143, 142, 161);
+    height: 233px;
+    width: 100%;
+    
+    
+}
+.footer{
+    display: flex;
+    padding: 23px 100px;
+    justify-content: space-evenly;
+    color: black;
+    font-weight: 500;
+}
+.footer ul {
+    list-style: none;
+    
+
+}
+footer .footer-rights{
+    text-align: center;
+    color: black;
+    padding: 15px 20px;
+}
+
+.about-section {
+    background-color: #072340;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .profile-photo img {
+    width: 250px;
+    height: 350px;
+    border-radius: 20%;
+    object-fit: cover;
+    box-shadow: 10 10 150px black
+  }
+  
+  .about-content {
+    flex: 1;
+    margin-left:100px;
+  }
+  
+  .about-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .about-content p.skills {
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
+  }
+  
+  .profile-photo img:hover {
+    transform: scale(1.4);
+  }
+
+  .skills-list h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .skills-list ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .progress-bar {
+    width: 50%;
+    background-color: #e0e0e0;
+    height: 10px;
+    margin-top: 5px;
+    border-radius: 50px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #1965b6;
+  }
+  
+
+
+  /* for project section */
+  .projects-section {
+    padding: 30px;
+    background-color: #072340;
+  }
+  
+  .projects-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 5fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    color: black;
+  }
+  
+  .project-card:hover {
+    transform: translatey(-10px);
+  }
+  
+  .project-card h3 {
+    font-size: 15px;
+    margin: 5px 0;
+  }
+  
+  .project-card p {
+    font-size: 14px;
+  }
+  
+
+  /* conntect page */
+  
+  .contect{
+   margin-left: 40%;
+  }
+  .outer{
+     width: 50%;
+     height: 300px;
+     background-color: #007bff;
+     margin-left: 25%;
+     
+   
+  }
+
+  /*conect form*/
+  .inner{
+   
+    width: 30%;
+    margin: 1% 0 0 35%;
+  }
+  .form-control
+  {
+    background-color:#8d8fb3;
+    padding: 9px 10px;
+    border-radius: 30px;
+  }
+  .lbl{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    margin-left: 80px;
+  }
+ .inp{
+  width: 60%;
+  padding: 5px;
+  margin: 5px 0 5px 80px;
+ }
+ .txtarea
+ {
+  margin-left: 80px;
+ }
+ .btn{
+  margin: 10px 0 0 135px;
+ }
+ .map h1{
+  margin: 5% 0 0 40%;
+ }
+ .map iframe{
+ margin-top: 1% ;
+ margin-left: 10%;
+ margin-bottom: 5%;
+ width: 85%;
+ height: 300px;
+ }
+@media (max-width:899px){ 
+    .firstSection{
+        margin-top: 3rem;
+    }
+    .leftSection{
+        font-size: 1.5rem;
+        margin: 50px 0 0 3px;
+    }
+    .leftSection .btn{
+        height: 50px;
+        width: 90px;
+        font-size: 12px;
+        
+    }
+     .img{
+        width:16rem; 
+
+    }   
+    footer{
+        background-color:transparent;
+        height: 100vh;
+        margin-top: 8rem;
+        width: 100vw;
+
+    }
+    .footer .footer-rights{
+        width: 100%;
+    }
+    .footer{
+       
+        width: 100%;
+        color: white;
+    }
+    .about-section {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .profile-photo img {
+        margin-bottom: 20px;
+        height: 250px;
+      }
+      .about-content{
+        margin-left: 30px;
+      }
+      /* contect code */
+      .inner{
+        width: 60%;
+        margin-left: 15%;
+      }
+      .lbl{
+        margin-left: 40px;
+      }
+     .inp{
+      width: 60%;
+      padding: 5px;
+      margin: 5px 0 5px 40px;
+     }
+      .txtarea
+      {
+       width: 60%;
+       margin-left: 40px;
+      }
+      .btn{
+        margin-left: 50px;
+      }
+}
